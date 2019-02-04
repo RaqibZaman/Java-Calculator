@@ -7,7 +7,7 @@ Here's the blueprint I made while working on this program. Outlining all the fea
 
 
  ------------------
- | GUI Calculator |
+ | GUI Calculator V 0.1 |
  ------------------
  
  * [ ] Front side deals with graphics 

@@ -14,7 +14,7 @@ Here's the blueprint I made while working on this program. Outlining all the fea
  * [ ] Back side deals with calculations
  
  ----steps----
- * [ ] 1. I need to setup the calculations
+ * [X] 1. I need to setup the calculations
  * [ ] 2. Make functional program without GUI
    * [X] a. Add choice when to exit (loop otherwise)
    * [X] b. Deal with zero division

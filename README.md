@@ -18,7 +18,7 @@ Here's the blueprint I made while working on this program. Outlining all the fea
  * 2. Make functional program without GUI
  *	* [X] a. Add choice when to exit (loop otherwise)
  * * [X] b. Deal with zero division
- ** c. Be able to instantiate variables (setters, getters for vars)
+ * * c. Be able to instantiate variables (setters, getters for vars)
  * 3. Then setup GUI
  -------------------------
  | Types of Calculations |

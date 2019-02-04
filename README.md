@@ -10,8 +10,8 @@ Here's the blueprint I made while working on this program. Outlining all the fea
  | GUI Calculator |
  ------------------
  
- [ ] Front side deals with graphics 
- [ ] Back side deals with calculations
+ * [ ] Front side deals with graphics 
+ * [ ] Back side deals with calculations
  
  ----steps----
  * 1. I need to setup the calculations

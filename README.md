@@ -11,7 +11,7 @@ Here's the blueprint I made while working on this program. Outlining all the fea
  ------------------
  
  * [] Front side deals with graphics 
- *[] Back side deals with calculations
+ * [] Back side deals with calculations
  
  ----steps----
  [X] 1. I need to setup the calculations

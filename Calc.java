@@ -1,64 +1,50 @@
-package main;
+package Java_Calculator;
 
 public class Calc {
-	public double c;		// calculation result - other classes (run) will take from here
+	public static double c;		// calculation result - other classes (run) will take from here
 	
 	
-	public void add(double a, double b) {	
+	public static double add(double a, double b) {	
 		c = a + b;
+		return c;
 		
 	}
 	
-	public void subtract(double a, double b) {
+	public static double subtract(double a, double b) {
 		c = a - b;
+		return c;
 		
 	}
 	
-	public void multiply(double a, double b) {
+	public static double multiply(double a, double b) {
 		c = a * b;
+		return c;
 		
 	}
 	
-	public void divide(double a, double b) {		// setup try catch in case of zero division
-		if (b == 0) {
-			System.out.println("You cannot divide by zero");
-		}
-		else {
+	public static double divide(double a, double b) {		// setup try catch in case of zero division
 		c = a / b;
-		}
+		return c;
 
-		
 	}
 	
-	public void modulus(double a, double b) {
+	public static double modulus(double a, double b) {
 		c = a % b;
+		return c;
 		
 	}
 	
-	public void exponent(double a, double b) {
-		c = Math.pow(a, b);		
+	public static double exponent(double a, double b) {
+		c = Math.pow(a, b);
+		return c;
 		
 	}
 	
-	public void exponent2(double a) {
+	public static double exponent2(double a) {
 		c = Math.pow(a, 2);
+		return c;
 		
 	}
-	
-	public void var() {	
-		
-		
-		/**
-		 * Purpose: I need a way to instantiate variables by user request
-		 * 
-		 * harder to implement, I think needs an array, limit vars or not?
-		 * having objects to have their own vars through constructors may be the way to go
-		 * So have a separate Var class perhaps?
-		 * 
-		 */
-		
-	}
-
 	
 
 }

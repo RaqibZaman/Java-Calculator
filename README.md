@@ -5,6 +5,7 @@ A Java Calculator I built in order to practice and improve my understanding of J
 
 
 Here's the blueprint I made while working on this program. Outlining all the features that I want in a program is very important for developing software properly:
+
 ------------------
 | GUI Calculator V 1.0 |
 ------------------
@@ -13,24 +14,22 @@ These are some of the blueprints, you can see more insights that I discovered in
  * sign buttons do calculations, back & forth double String parsing required
 	* will need to use nested if statements to achieve desired effect 
 	* steps in calculation
-			 * 		first number
-			 * 		choose calculation
-			 * 		second number
-			 * 		commit/enter calculation
+	* first number
+	* choose calculation
+	* second number
+	* commit/enter calculation
 * So I will need an equals to button
-			 * 
 * I might need 2 numberStrings or 2 variables for 1st and 2nd numbers in calculation
 
 * Steps:
-			 * 1. trigger + sign button
-			 * 2. parse numberString into double, sto currentTotal variable
-			 * 3. clear HUD
-			 * 4. other numbers are entered 
-			 * 5.
-			 * 		a. if = is pressed, output to HUD currentTotal + numString, then clear currentTotal
-			 * 		b. if + is pressed, add numString to currentTotal, clear HUD
+	* 1. trigger + sign button
+	* 2. parse numberString into double, sto currentTotal variable
+	* 3. clear HUD
+	* 4. other numbers are entered 
+	* 5.
+		* a. if = is pressed, output to HUD currentTotal + numString, then clear currentTotal
+		* b. if + is pressed, add numString to currentTotal, clear HUD
 
- ------------------
  ------------------
  ------------------
  | GUI Calculator V 0.1 |
